@@ -1,7 +1,6 @@
-a=int(input("Enter te current year"))
-b=int(input("Enter the final year"))
-print("Leap years are:")
-for i in range(a,b):
-    if i%4==0:
+x=int(input("Enter the starting year:"))
+y=int(input("Enter the ending year:"))
+print("The following are leap years:")
+for i in range(x,y):
+    if((i%400==0) or ((i%100!=0)) and (i%4==0)):
         print(i)
-

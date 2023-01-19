@@ -1,0 +1,11 @@
+ mylist1=input("Enter the list of colors:")
+ mylist2=input("Enter the list of colors:")
+ x1=mylist1.split(" ")
+ x2=mylist2.split(" ")
+ s1=set(x1)
+ s2=set(x2)
+ s3=s1.difference(s2)
+ s4=s2.difference(s1)
+ thislist1=list(s3)
+ thislist2=list(s4)
+ mylist=thislist1-thislist2

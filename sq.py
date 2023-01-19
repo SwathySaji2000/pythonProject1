@@ -1,5 +1,3 @@
-n=int(input("Enter a number"))
-fact=1
-if(n<0):
-    print("factorial does not exist")
-if(n==0)
+n=int(input("Enter the limit:\t"))
+s=[i*i for i in range(n)]
+print(s)
